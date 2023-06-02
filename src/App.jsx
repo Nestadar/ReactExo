@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Caca from './components/caca';
+import Header from './components/Header';
 
 const tabWeapons = [
   {
@@ -68,7 +68,7 @@ function App() {
 
   return (
     <>
-      <Caca/>
+      <Header/>
     </>
   )
 }
