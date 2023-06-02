@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header';
 import Form from './components/Form';
+import Cards from "./components/Cards"
 
 const tabWeapons = [
   {
@@ -13,7 +14,7 @@ const tabWeapons = [
   },
   {
     name: "M4A1",
-    imgSrc:"dzqd",
+    imgSrc:"https://www.armurerie-auxerre.com/media/catalog/product/cache/1/image/827982e4489a59ffa655ea6205cdde6a/2/0/208300-m4.jpg",
     description: "Version évoluée du fusil M16, utilisé par les forces armées américaines et de nombreux autres pays, apprécié pour sa compacité et sa polyvalence",
     type: "Assault Riffle",
     caliber: "5,56mm",
@@ -71,6 +72,10 @@ function App() {
     <>
       <Header/>
       <Form/>
+      <div className="container">
+      <Cards table={tabWeapons}/>
+      </div>
+      
     </>
   )
 }
