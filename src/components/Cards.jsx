@@ -1,11 +1,11 @@
 import "../Cards.css"
 
 const Card = (props) => {
-    const {table} = props;
+    const {filteredWeapons} = props;
     
     return (
     <div className= "cards">
-        {table.map((weapon, index) => (
+        {filteredWeapons.map((weapon, index) => (
             <div className="card" key={index}>
               <div className= "nameCard">
                 <p>{weapon.name}</p>

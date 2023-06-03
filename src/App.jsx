@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header';
 import Form from './components/Form';
 import Cards from "./components/Cards"
+import Filters from './components/Filters';
 
 const tabWeapons = [
   {
@@ -66,7 +67,26 @@ const tabWeapons = [
 
 
 function App() {
+  const [filteredWeapons, setFilteredWeapons] = useState(tabWeapons);
   
+  const handleFilter = (selectedCaliber, selectedType) => {
+    let filteredResult = tabWeapons;
+
+    if (selectedCaliber && selectedCaliber !== "") {
+      filteredResult = filteredResult.filter(
+        (weapon) => weapon.caliber === selectedCaliber
+      );
+    }
+  
+    if (selectedType && selectedType !== "") {
+      filteredResult = filteredResult.filter(
+        (weapon) => weapon.type === selectedType
+      );
+    }
+
+    setFilteredWeapons(filteredResult);
+  };
+
 
   return (
     <>
@@ -75,7 +95,10 @@ function App() {
     </div>
       <Form/>
     <div className="container">
-      <Cards table={tabWeapons}/>
+      <Cards filteredWeapons={filteredWeapons}/>
+    </div>
+    <div>
+      <Filters handleFilter={handleFilter}/>
     </div>
       
     </>

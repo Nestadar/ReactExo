@@ -3,7 +3,7 @@ import "../Form.css"
 
 const Form = () => {
     const [name, setName] = useState("");
-
+    
     const handleChange = (e) => {
         setName(e.target.value);
     }
@@ -14,7 +14,8 @@ const Form = () => {
             <input type="text" id="userInput" name="userInput" value={name} onChange={handleChange}>
             </input>
         </div>
-    )
+        
+    );
 }
 
 export default Form;
