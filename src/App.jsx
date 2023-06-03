@@ -12,6 +12,7 @@ const tabWeapons = [
    description: "Connu pour sa fiabilité, sa simplicité de fonctionnement et sa puissance de feu.",
    type: "Assault Riffle",
    caliber: "7,62mm",
+   color:"#FF0000",
   },
   {
     name: "M4A1",
@@ -19,6 +20,7 @@ const tabWeapons = [
     description: "Version évoluée du fusil M16, utilisé par les forces armées américaines et de nombreux autres pays, apprécié pour sa compacité et sa polyvalence",
     type: "Assault Riffle",
     caliber: "5,56mm",
+    color:"#0000FF",
    },
    {
     name: "Colt M1911",
@@ -26,6 +28,7 @@ const tabWeapons = [
     description: "Conçu par John Browning, il a été utilisé comme pistolet de service par les forces armées américaines pendant de nombreuses années.",
     type: "Handgun",
     caliber: ".45ACP",
+    color:"#00FF00",
    },
    {
     name: "Remington Model 700 (R700)",
@@ -33,6 +36,7 @@ const tabWeapons = [
     description: "Réputé pour sa précision, largement utilisé par les tireurs d'élite et les chasseurs pour la précision à longue distance.",
     type: "Bolt Action Riffle",
     caliber: ".308",
+    color:"#FFFF00",
    },
    {
     name: "M9 (Beretta 92)",
@@ -40,6 +44,7 @@ const tabWeapons = [
     description: "Adopté par les forces armées américaines comme pistolet de service standard depuis 1985.",
     type: "Handgun",
     caliber: "9mm",
+    color:"#800080",
    },
    {
     name: "Uzi",
@@ -47,6 +52,7 @@ const tabWeapons = [
     description: "Compact et largement utilisé par les forces de sécurité, les versions plus récentes sont chambrées en 9mm.",
     type: "SMG",
     caliber: "9mm",
+    color:"#FFA500",
    },
    {
     name: "SIG 716",
@@ -54,6 +60,7 @@ const tabWeapons = [
     description: "Version du SIG SG 550 adaptée pour le calibre .308, utilisée par les forces militaires et les forces spéciales.",
     type: "DMR",
     caliber: ".308",
+    color:"#FFC0CB",
    },
    {
     name: "FN SCAR 17S",
@@ -61,6 +68,7 @@ const tabWeapons = [
     description: "Utilisé par les forces spéciales et les unités de combat, offrant une grande modularité et une précision élevée.",
     type: "DMR",
     caliber: ".308",
+    color:"#A52A2A",
    },
 ];
 

@@ -1,13 +1,14 @@
 import "../Cards.css"
 
+
 const Card = (props) => {
     const {filteredWeapons} = props;
-    
+
     return (
     <div className= "cards">
         {filteredWeapons.map((weapon, index) => (
             <div className="card" key={index}>
-              <div className= "nameCard">
+              <div className= "nameCard" style={{color: weapon.color}}>
                 <p>{weapon.name}</p>
               </div>
               <div className= "myMage">
