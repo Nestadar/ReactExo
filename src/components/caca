@@ -1,0 +1,8 @@
+const getRandomColor = () => {
+      const colors= ["red", "blue", "green", "yellow", "orange", "purple", "pink", "brown"];
+      const randomIndex = Math.floor(Math.random() * colors.length);
+      return colors[randomIndex];
+    }
+
+
+    className="weapon-name" style={{color: getRandomColor()}}
