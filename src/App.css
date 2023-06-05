@@ -3,6 +3,7 @@
   background-image: url(https://images6.alphacoders.com/512/512054.jpg);
   background-position: center;
   background-size: cover;
+  overflow:hidden;
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
@@ -12,8 +13,7 @@
   background-color: black;
   color:blue;
   background-image: url(https://images6.alphacoders.com/512/512054.jpg);
-  /* background-position: center; */
-  /* background-size: cover; */
+  overflow: hidden;
 }
 
 .container {
@@ -24,4 +24,5 @@
   background-image: url(https://cdn.fstoppers.com/styles/full/s3/media/2015/12/american_portraits_with_guns_after_christmas.jpg);
   background-position: center;
   background-size: cover;
+  overflow:hidden;
 }
