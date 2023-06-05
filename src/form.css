@@ -5,8 +5,12 @@
     align-items: center;
     font-weight: bold;
     font-size: 80px;
-    color: #d5d5d7;
+    color: blue;
     background-color:black;
+    background-image: url(https://images6.alphacoders.com/512/512054.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black, -1px 0px 0 black, 0px -1px 0 black;
     
 }
 

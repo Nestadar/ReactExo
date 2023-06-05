@@ -1,5 +1,8 @@
 #root {
   background-color: black;
+  background-image: url(https://images6.alphacoders.com/512/512054.jpg);
+  background-position: center;
+  background-size: cover;
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
@@ -7,7 +10,10 @@
 
 .header {
   background-color: black;
-  color:#d5d5d7;
+  color:blue;
+  background-image: url(https://images6.alphacoders.com/512/512054.jpg);
+  /* background-position: center; */
+  /* background-size: cover; */
 }
 
 .container {
@@ -15,4 +21,7 @@
   display:flex;
   justify-content: center;
   background-color: black;
+  background-image: url(https://cdn.fstoppers.com/styles/full/s3/media/2015/12/american_portraits_with_guns_after_christmas.jpg);
+  background-position: center;
+  background-size: cover;
 }

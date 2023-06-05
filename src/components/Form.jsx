@@ -10,7 +10,11 @@ const Form = () => {
 
     return (
         <div className="Form">
-            <p>Bonjour: {name}</p>
+         <div className="userName">
+            <p>Bonjour: </p> 
+            <p style={{color: "red"}}> {name}</p>
+         </div>
+            
             <input type="text" id="userInput" name="userInput" placeholder="Enter your name" value={name} onChange={handleChange}>
             </input>
         </div>

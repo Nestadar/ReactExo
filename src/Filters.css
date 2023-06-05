@@ -3,5 +3,51 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    color:#d5d5d7;
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+}
+
+.input1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right: 30vh;
+    background-color: #d5d5d7;
+    border:4px solid black;
+    border-radius: 20px;
+    color:burlywood;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black, -1px 0px 0 black, 0px -1px 0 black;
+    
+}
+
+.input2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #d5d5d7;
+    border:4px solid black;
+    border-radius: 20px;
+    color:burlywood;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black, -1px 0px 0 black, 0px -1px 0 black;
+}
+
+#caliber {
+    border:1px solid burlywood;
+    border-radius:20px;
+    color:burlywood;
+    font-size: 20px;
+    background-color:black;
+}
+
+#type {
+    border:1px solid burlywood;
+    border-radius:20px;
+    color:burlywood;
+    font-size: 20px;
+    background-color:black;
 }
