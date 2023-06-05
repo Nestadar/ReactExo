@@ -11,7 +11,7 @@ const Form = () => {
     return (
         <div className="Form">
             <p>Bonjour: {name}</p>
-            <input type="text" id="userInput" name="userInput" value={name} onChange={handleChange}>
+            <input type="text" id="userInput" name="userInput" placeholder="Enter your name" value={name} onChange={handleChange}>
             </input>
         </div>
         

@@ -2,7 +2,6 @@ import {useState} from "react";
 import "../Filters.css"
 
 const Filters = ({handleFilter}) => {
-    const [name, setName] = useState("");
     const [selectedCaliber, setSelectedCaliber] = useState("");
     const [selectedType, setSelectedType] = useState("");
 
